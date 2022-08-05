@@ -1,0 +1,89 @@
+.items img{
+    margin-right: 10px;
+    width: 160px;
+}
+
+@media only screen and (max-width: 590px) {
+  .items img {
+    width: 133px;
+    height: auto;
+  }
+  .item-heading {
+    font-size: 20px;
+  }
+  .item-desc {
+    font-size: 14px;
+  }
+  .item-price {
+    font-size: 15px;
+  }
+}
+
+.all-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.items-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+.add {
+    position: relative;
+    align-self: flex-end;
+    top: 20px;
+  appearance: button;
+  background-color: #15b077;
+  border: 1px solid #15b077;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Graphik,-apple-system,system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-size: 14px;
+  line-height: 1.15;
+  overflow: visible;
+  padding: 5px 20px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: all 80ms ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  height: fit-content;
+}
+@media only screen and (max-width: 590px) {
+  .add {
+    top: 0;
+  }
+}
+
+.add:disabled {
+  opacity: .5;
+}
+
+.add:focus {
+  outline: 0;
+}
+
+.add:hover {
+  background-color: #18cc8a;
+  border-color:  #18cc8a;
+  cursor: pointer;
+}
+
+.add:active {
+  background-color:  #18cc8a;
+  border-color:  #18cc8a;
+}

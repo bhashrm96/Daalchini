@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.fbtn:hover{
+  cursor: pointer;
+  background-color: #118257;
+}
+
+.fbar{
+    height: 70px;
+    background-color: #15b077;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    z-index: 4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fbtn{
+    color: white;
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    font-size: 16px;
+}
+
+.arrow{
+    background-image: url("../images/right-arrow-icon-7580.png");
+    background-position: center center;
+    background-size: 100%;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.cart-opener{
+    display: flex;
+    background-color: #118257 ;
+    width: 160px;
+    height: 52px;
+    justify-content: space-around;
+    border-radius: 8px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.cart-details{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.cart-arrow{
+    background-image: url("../images/Drop-down-arrow-icon-rounded.png");
+    background-size: 100%;
+    width: 20px;
+    height: 40px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+}
+
+/* .aicon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 25px;
+    width: 90%;
+    height: 10px;
+    background-color: #fff;
+  }
+  
+  .arrow::after, .arrow::before {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 10px;
+    right: -8px;
+    background-color: #fff;
+  }
+  
+  .arrow::after {
+    top: -12px;
+    transform: rotate(45deg);
+  }
+  
+  .arrow::before {
+    top: 12px;
+    transform: rotate(-45deg);
+  } */

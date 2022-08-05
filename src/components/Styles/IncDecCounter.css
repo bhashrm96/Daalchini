@@ -1,0 +1,38 @@
+.incdec-container{
+    align-self: flex-end;
+    position: relative;
+    top: 20px;
+    border: 1px solid #15b077 ;
+}
+
+@media only screen and (max-width: 590px) {
+    .incdec-container {
+      top: 0;
+    }
+  }
+
+.incbtn {
+    width: 22.66px;
+    height: 28px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 100%
+}
+
+.decbtn {
+    width: 22.66px;
+    height: 28px;  
+    border: none; 
+    background-color: rgb(255, 255, 255);
+    font-size: 100%
+}
+
+.form-control {
+    width: 22.66px;
+    height: 28px;   
+    border: none transparent;
+    outline: none;
+    text-align: center;  
+    color: #15b077;
+    font-size: 80%
+}
